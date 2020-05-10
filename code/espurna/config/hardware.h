@@ -4652,6 +4652,33 @@
     #define RELAY4_TYPE             RELAY_TYPE_NORMAL
 
 // -----------------------------------------------------------------------------
+// eco4life DPS1101S
+// -----------------------------------------------------------------------------
+
+#elif defined(ECO4LIFE_DPS1101S)
+
+    // Info
+    #define MANUFACTURER        "ECO4LIFE"
+    #define DEVICE              "DPS1101S"
+
+    // Buttons
+    #define BUTTON1_PIN         13
+    #define BUTTON1_CONFIG      BUTTON_PUSHBUTTON | BUTTON_DEFAULT_HIGH
+    #define BUTTON1_RELAY       1
+
+    // Relays
+    #define RELAY1_PIN          12
+    #define RELAY1_TYPE         RELAY_TYPE_NORMAL
+
+    // LEDs
+    #define LED1_PIN            4
+    #define LED1_PIN_INVERSE    0
+    #define LED1_MODE           LED_MODE_WIFI
+
+    #define LED2_PIN            5
+    #define LED2_PIN_INVERSE    1
+    #define LED2_MODE           LED_MODE_RELAY
+// -----------------------------------------------------------------------------
 
 #else
 

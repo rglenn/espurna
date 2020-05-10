@@ -35,6 +35,7 @@
 //#define DELTACO_SH_P01
 //#define DELTACO_SH_P03USB
 //#define DIGOO_NX_SP202
+//#define ECO4LIFE_DPS1101S
 //#define EHOMEDIY_WT02
 //#define EHOMEDIY_WT03
 //#define ELECTRODRAGON_WIFI_IOT
